@@ -1,0 +1,151 @@
+
+body{
+    background-color:rgb(241, 224, 241);
+}
+
+/* região do topo que contem: logos com os links */
+.cabeçalho{
+    background-color: rgb(110, 16, 122);
+    border: 1px solid;
+    border-radius: 25px;  /*para encurvar*/
+    width: 100%;        /*responsividade do header*/
+    padding: 2px;
+    margin: 0 auto;
+    display: flex;   /*ajuda a alinhar os itens melhor dentro da box */
+    justify-content: center;
+    
+}
+
+.logos{
+    max-width: 30px;
+    width: 100%;    /*responsividade das imagens*/
+    max-height: 30px;
+    height: 100%;
+}
+
+.logos:hover{
+    opacity: .6;  /*logo some levemente ao passar o mouse*/
+}
+
+/* Região que contem: foto, nome e descrição */
+.perfil{
+    width: 100%;
+    height: 100%;
+    padding: 50px;     /*a borda está invisível, então esse é o "espaçamento dos itens da região até a borda*/
+    box-sizing: border-box;  /*responsividade da box*/
+    margin: 0 auto;
+    
+}
+
+.imagem_perfil{
+    max-width: 200px;
+    width: 100%;
+    max-height: 200px;
+    height: 100%;
+    border-radius: 50%; 
+    border: 3px solid rgb(110, 16, 122);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.nome_perfil{
+    color: rgb(39, 167, 124);
+    font-family: 'DynaPuff';
+    font-size: 30px;
+    margin: 10 auto;
+    display: flex;
+    justify-content: center;  /*texto se ajusta com a box em que está localizado*/
+
+}
+
+.descrição_perfil{
+    color: rgb(110, 16, 122);
+    font-family: 'DynaPuff';
+    font-size: 15px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+
+}
+
+/* região do "meio" que contem: o titulo, os artigos e os textinhos dos projetos */
+.section{
+    /*border: 2px dashed rgb(110, 16, 122);*/
+    border-radius: 25px;  /*para encurvar*/
+    padding: 50px;
+    max-width: 900px;
+    width: 100%;
+    margin: 16px auto;
+    box-sizing: border-box;  /*responsividade da box*/
+    
+}
+
+.sobre_mim{
+    color: rgb(39, 167, 124);
+    font-family: 'DynaPuff';
+    font-size: 25px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center; /*texto se ajusta com a box*/
+}
+
+/* caixinhas com as informações dentro da section*/
+.article{
+    border: 1px solid rgb(110, 16, 122);
+    background-color: rgb(206, 176, 206);
+    border-radius: 25px;  /*para encurvar*/
+    padding: 5px;
+    margin: 16px auto;
+    max-width: 400px;
+    box-sizing: border-box;  /*article se ajusta com a box*/
+
+}
+
+.info_nome{
+    color: rgb(30, 146, 107);
+    font-family: 'DynaPuff';
+    font-size: 18px;
+    margin: 20px auto;
+}
+
+.info_descrição{
+    color:rgb(110, 16, 122);
+    font-family: 'DynaPuff';
+    font-size: 12px;
+    margin: 20px auto;
+}
+
+
+/* rodapé da página, funciona parecido como o header */
+.rodapé{
+    background-color: rgb(110, 16, 122);
+    border: 1px solid;
+    width: 100%;        /*responsividade do header*/
+    height: 42px;
+    display: flex;  /*alinhar seus itens melhor*/
+    align-items: center;
+    box-sizing: border-box; /*itens não serão influenciados por outros elementos*/
+    justify-content:space-evenly;
+    color: white;
+    font-family: 'DynaPuff';
+    font-size: 13px;
+}
+
+
+.logos_footer{
+    max-width: 18px;
+    width: 100%;    /*responsividade das imagens*/
+    max-height: 18px;
+    height: 100%;
+}
+
+
+.logos_footer{
+    max-width: 18px;
+    width: 100%;    /*responsividade das imagens*/
+    max-height: 18px;
+    height: 100%;
+}
