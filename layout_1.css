@@ -121,14 +121,16 @@ body{
 
 /* rodapé da página, funciona parecido como o header */
 .rodapé{
-    background-color: rgb(110, 16, 122);
-    border: 1px solid;
-    width: 100%;        /*responsividade do header*/
-    height: 42px;
-    display: flex;  /*alinhar seus itens melhor*/
-    align-items: center;
-    box-sizing: border-box; /*itens não serão influenciados por outros elementos*/
-    justify-content:space-evenly;
+    background-color:rgb(110, 16, 122);
+    border: 2px solid;
+    width: 100%;      
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    height: fit-content;
+    bottom: 0;
+    position: fixed;
+    padding: 10px;
     color: white;
     font-family: 'DynaPuff';
     font-size: 13px;
@@ -142,10 +144,3 @@ body{
     height: 100%;
 }
 
-
-.logos_footer{
-    max-width: 18px;
-    width: 100%;    /*responsividade das imagens*/
-    max-height: 18px;
-    height: 100%;
-}
